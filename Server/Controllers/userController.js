@@ -56,4 +56,4 @@ export const getAllUsers = async (req, res) => {
             message: `Failed to get all users: ${error}`
         });
     }
-};
+}; 
