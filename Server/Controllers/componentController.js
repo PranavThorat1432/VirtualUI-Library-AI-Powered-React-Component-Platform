@@ -55,7 +55,7 @@ export const savedComponent = async (req, res) => {
 };
 
 
-export const publishComponent = async (req, res) => {
+export const publishComponent = async (req, res) => { 
     try {
         const user = await User.findById(req.userId);
         if(!user || user.role !== 'admin') {
