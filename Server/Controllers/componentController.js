@@ -201,4 +201,4 @@ export const getAllComponents = async (req, res) => {
             message: `Failed to get all components: ${error}`
         });
     }
-};
+}; 
