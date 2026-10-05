@@ -9,7 +9,7 @@ import { auth, provider } from '../../Utils/firebase';
 import axios from 'axios';
 import { serverUrl } from '../App';
 import { useDispatch } from 'react-redux';
-import { setUserData } from '../Redux/userSlice';
+import { setUserData } from '../Redux/userSlice'; 
 
 
 
