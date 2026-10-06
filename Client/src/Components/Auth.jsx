@@ -54,7 +54,8 @@ const Auth = ({onClose}) => {
         );
         return () => clearInterval(id)
 
-    });    
+    });     
+    
 
 
     const googleAuth = async () => {
