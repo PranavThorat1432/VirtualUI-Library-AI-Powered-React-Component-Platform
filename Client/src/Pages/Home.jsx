@@ -164,7 +164,7 @@ const Home = () => {
           <span className="text-lg font-bold tracking-tight" style={{fontFamily: "'Syne', sans-serif"}}>
             VirtualUI
           </span>
-        </div>
+        </div> 
 
         <div className="hidden md:flex items-center gap-6 lg:gap-8 text-sm text-white/50">
           <button onClick={() => navigate('/components')} className="hover:text-white transition-colors duration-200 cursor-pointer px-6 py-2.5 border border-white/15 rounded-xl text-sm text-white/70 hover:border-white/25 bg-transparent w-full">Components</button>
