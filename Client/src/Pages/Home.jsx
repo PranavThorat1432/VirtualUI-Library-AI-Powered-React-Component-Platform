@@ -12,7 +12,7 @@ import {
 import axios from "axios";
 import { serverUrl } from "../App";
 import { setAllComponents, setAllUsers, setUserData } from "../Redux/userSlice";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"; 
 import { HiSparkles } from "react-icons/hi2";
 
 
@@ -86,7 +86,7 @@ const Home = () => {
     e.preventDefault();
     if (newsletterEmail.trim()) {
       setSubscribed(true);
-      setTimeout(() => {
+      setTimeout(() => { 
         setSubscribed(false);
         setNewsletterEmail("");
       }, 3500);
