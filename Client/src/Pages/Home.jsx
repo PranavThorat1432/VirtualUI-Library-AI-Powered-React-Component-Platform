@@ -272,7 +272,7 @@ const Home = () => {
         </AnimatePresence>
       )}
 
-
+ 
       {/* Hero Section */}
       <section
         className="relative max-w-5xl mx-auto px-4 sm:px-6 pt-16 sm:pt-24 pb-12 sm:pb-20 text-center"
